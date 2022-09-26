@@ -52,7 +52,275 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Projects</heading>
+              <p>
+              	Here is a few projects that I am currently working on, with some of them available in preprints.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="anymal_imitate_stop()" onmouseover="anymal_imitate_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='anymal-imitate'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/anymal-imitate-small.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/anymal-imitate.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function anymal_imitate_start() {
+                  document.getElementById('anymal-imitate').style.opacity = "1";
+                }
+
+                function anymal_imitate_stop() {
+                  document.getElementById('anymal-imitate').style.opacity = "0";
+                }
+                anymal_imitate_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Learning to Walk Over Structured Terrains by Imitating MPC</papertitle>
+              </a>
+              <br>
+              <strong>Chao Ni</strong>,
+							<a href="https://rsl.ethz.ch/">Alexander Reske</a>,
+							<a href="https://rsl.ethz.ch/">Takahiro Miki</a>,
+							<a href="https://rsl.ethz.ch/">Marco Hutter</a>
+              <br>
+              <!-- <em>Conference on Robot Learning (CoRL)</em>, under review
+              <br> -->
+              <a href="https://youtu.be/zRdr7dWsLr4">video</a>
+              /
+              <a href="data/perceptive_mpcnet.pdf">arXiv</a>
+              /
+              <!-- <a href="http://hdl.handle.net/20.500.11850/534876">Master Thesis</a> -->
+              <p></p>
+              <p>Leveraging demonstrations from MPC expert, the robot learns to walk over structured terrains.</p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="sampling_stop()" onmouseover="sampling_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='sampling_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/sampling-small.mp4" type="video/mp4">
+	              Your browser does not support the video tag.
+	              </video></div>
+	              <img src='images/sampling-big.png' width="160">
+	          </div>
+              <script type="text/javascript">
+                function sampling_start() {
+                  document.getElementById('sampling_image').style.opacity = "1";
+                }
+
+                function sampling_stop() {
+                  document.getElementById('sampling_image').style.opacity = "0";
+                }
+                sampling_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+              <papertitle>Fast and Compute-efficient Sampling-based Local Exploration Planning via Distribution Learning</papertitle>
+              </a>
+              <br>
+              <a href="https://asl.ethz.ch/the-lab/people/person-detail.MTk5NDEw.TGlzdC8xNTg0LDEyMDExMzk5Mjg=.html">Lukas Schmid*</a>,
+              <strong>Chao Ni*</strong>,
+              <a href="">Yuliang Zhong</a>,
+              <a href="">Roland Siegwart</a>,
+              <a href="">Olov Andersson</a>
+              <br>
+              <em>*equal contribution</em> <br>
+              <em>Robotics and Automation Letters (RA-L) & IROS</em>, 2022
+              <br>
+	      <a href="https://chaofiber.github.io/cvae_exploration_planning/">project page</a>
+	      /
+              <a href="https://www.youtube.com/watch?v=Hj5yI8VtlXk">video</a>
+              / 
+              <a href="https://arxiv.org/abs/2202.13715">arXiv</a>
+              /
+              <a href="https://github.com/ethz-asl/cvae_exploration_planning">code</a>
+              <p></p>
+              <p>By learning the distribution of optimal samples given a local map, sampling-based exploration planning can be done efficiently.</p>
+            </td>
+
+ 		    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Past Projects</heading>
+              <p>
+              	Here is a list of my past projects, including course projects and unpublished work.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="mpc_feedback_stop()" onmouseover="mpc_feedback_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mpc_feedback_image'><img src='images/mpc_feedback.png' width="160"></div>
+                <img src='images/mpc_feedback.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function mpc_feedback_start() {
+                  document.getElementById('mpc_feedback_image').style.opacity = "1";
+                }
+
+                function mpc_feedback_stop() {
+                  document.getElementById('mpc_feedback_image').style.opacity = "0";
+                }
+                mpc_feedback_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>MPC-feedback Trajectory Optimization for Wheeled-legged Robots</papertitle>
+              </a>
+              <br>
+              <strong>Chao Ni</strong>
+              <br>
+							<em>semester thesis</em>
+              <br>
+              <a href="data/semester_thesis.pdf">report</a>
+              /
+              <a href="https://github.com/leggedrobotics/towr/tree/wheel_step">code</a>
+              <p></p>
+              <p>We create a motion primitive library with trajectories generated by modulizable optimizers and use Model Predictive Control to track the trajectory.</p>
+            </td>
+          </tr>
+
+
+          <tr onmouseout="hexpod_stop()" onmouseover="hexpod_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='hexpod_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/cross_obstacle_fast.mov" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/cross_obstacle.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function hexpod_start() {
+                  document.getElementById('hexpod_image').style.opacity = "1";
+                }
+
+                function hexpod_stop() {
+                  document.getElementById('hexpod_image').style.opacity = "0";
+                }
+                hexpod_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/chaofiber/hexapod/">
+                <papertitle>Simple Hexapod Robot Control</papertitle>
+              </a>
+              <br>
+              <strong>Chao Ni</strong>,
+              <a href="">Kaiyue Shen</a>,
+              <a href="">Ji Shi</a>
+              <br>
+							<em>course project</em>
+              <br>
+              <a href="https://www.youtube.com/watch?v=EAShGZtsAMU">video</a>
+			        /
+              <a href="https://github.com/chaofiber/hexapod/">code</a>
+              <p></p>
+              <p>Inverse Kinamtics solver for the hexpod robot is implemented, simple PD feedback is used for torque control. An obstacle avoidance algorithm is used to achieve navigation tasks.</p>
+            </td>
+          </tr> 
+
+
+          <tr onmouseout="bachelor_thesis_stop()" onmouseover="bachelor_thesis_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='bachelor_thesis_image'><img src='images/bachelor_thesis.png' width="160"></div>
+                <img src='images/bachelor_thesis.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function bachelor_thesis_start() {
+                  document.getElementById('bachelor_thesis_image').style.opacity = "1";
+                }
+
+                function bachelor_thesis_stop() {
+                  document.getElementById('bachelor_thesis_image').style.opacity = "0";
+                }
+                bachelor_thesis_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+              <papertitle>Exploiting Effective Representation via Cooperative Learning of Multi-Sensory Robotics Data</papertitle>
+              </a>
+              <br>
+              <strong>Chao Ni</strong>
+              <br>
+							<em>undergraduate thesis</em>
+              <br>
+              <a href="data/undergrad_thesis.pdf">report</a>
+              <p></p>
+              <p>We extract effective representation from the multi-sensory robotics data by self-supervised synchronization and 
+                use the latent representation for downstream RL tasks.<p>
+            </td>
+
+            <tr onmouseout="gora_stop()" onmouseover="gora_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='gora_image'><img src='images/gora.png' width="160"></div>
+                  <img src='images/gora.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function gora_start() {
+                    document.getElementById('gora_image').style.opacity = "1";
+                  }
+  
+                  function gora_stop() {
+                    document.getElementById('gora_image').style.opacity = "0";
+                  }
+                  gora_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="">
+                <papertitle>GORA-Net: a Temporal Reparameterization Method for Recognizing Actions in Video Sequences</papertitle>
+                </a>
+                <br>
+                <strong>Chao Ni</strong>
+                <br>
+                <em>unpublished research (Johns Hopkins University, advisor: Gregory Chirikjian)</em>
+                <br>
+                <a href="data/jhu18-chao.pdf">report</a>
+                <p></p>
+                <p>We quotient out the temporal fluctuations of the video and insert a preprocessing frame selection layer in 
+                  the action recognition learning framework.<p>
+              </td>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Personal Collections</heading>
+                  <p>
+                    Here is a list of my personal literature reviews and pointers to some of my passions.
+                    <p> A literature review on Robot Learning: <a href="data/rl19-chao.pdf">robot learning</a></p> 
+                </td>
+              </tr>
+            </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>					
+            </td>
+          </tr>
+        </tbody></table>
+        Template <a href="https://github.com/jonbarron/jonbarron_website">source</a>.
+      </td>
+    </tr>
+  </table>
 
 
 </body>
